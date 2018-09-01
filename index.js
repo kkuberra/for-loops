@@ -136,9 +136,9 @@ for (let i = 0; i < heroArray.length; i++) {
   if (heroArray[i].brand === "Marvel" || heroArray[i].brand === "DC") {
     totalMovies += heroArray[i].numberOfMovies;
   }
-  // for (let j = 0; j < heroArray[i].heroes.length; j++) {
-  //   // console.log(heroArray[i].heroes[j])
-  // }
+  for (let j = 0; j < heroArray[i].heroes.length; j++) {
+    console.log(heroArray[i].heroes[j])
+  }
 }
 
 console.log(totalMovies);
